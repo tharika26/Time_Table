@@ -1,0 +1,266 @@
+{
+  "teachers": [
+    {
+      "_id": "teacher-1783525820373",
+      "name": "maya",
+      "subjectsTaught": [
+        "maths"
+      ]
+    },
+    {
+      "_id": "teacher-1783525833302",
+      "name": "shalini ",
+      "subjectsTaught": [
+        "sci"
+      ]
+    }
+  ],
+  "subjects": [
+    {
+      "_id": "subject-1783525851983",
+      "name": "math",
+      "isLab": false,
+      "teachers": []
+    },
+    {
+      "_id": "subject-1783525870854",
+      "name": "sci lab",
+      "isLab": true,
+      "labDurationInPeriods": 2,
+      "teachers": []
+    }
+  ],
+  "classes": [
+    {
+      "_id": "class-1783528832673",
+      "name": "10 A",
+      "subjects": [
+        {
+          "subjectId": "subject-1783525851983",
+          "assignedTeacherId": "teacher-1783525820373",
+          "periodsPerWeek": 6,
+          "sessionsPerWeek": 7
+        },
+        {
+          "subjectId": "subject-1783525870854",
+          "assignedTeacherId": "teacher-1783525833302",
+          "periodsPerWeek": 8,
+          "sessionsPerWeek": 5
+        }
+      ]
+    }
+  ],
+  "config": {
+    "workingDays": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "periodsPerDay": 6,
+    "periodDurationMins": 45,
+    "breaks": []
+  },
+  "timetables": {
+    "class-1783528832673": {
+      "_id": "timetable-class-1783528832673",
+      "classId": "class-1783528832673",
+      "grid": {
+        "Mon": [
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          }
+        ],
+        "Tue": [
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": "subject-1783525870854",
+            "teacherId": "teacher-1783525833302",
+            "isLabBlock": true
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          }
+        ],
+        "Wed": [
+          {
+            "subjectId": "subject-1783525851983",
+            "teacherId": "teacher-1783525820373",
+            "isLabBlock": false
+          },
+          {
+            "subjectId": "subject-1783525851983",
+            "teacherId": "teacher-1783525820373",
+            "isLabBlock": false
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          }
+        ],
+        "Thu": [
+          {
+            "subjectId": "subject-1783525851983",
+            "teacherId": "teacher-1783525820373",
+            "isLabBlock": false
+          },
+          {
+            "subjectId": "subject-1783525851983",
+            "teacherId": "teacher-1783525820373",
+            "isLabBlock": false
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          }
+        ],
+        "Fri": [
+          {
+            "subjectId": "subject-1783525851983",
+            "teacherId": "teacher-1783525820373",
+            "isLabBlock": false
+          },
+          {
+            "subjectId": "subject-1783525851983",
+            "teacherId": "teacher-1783525820373",
+            "isLabBlock": false
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          },
+          {
+            "subjectId": null,
+            "teacherId": null,
+            "isLabBlock": false,
+            "isFree": true,
+            "label": "Free Period"
+          }
+        ]
+      },
+      "generatedAt": "2026-07-08T16:40:40.646Z"
+    }
+  },
+  "lastGeneration": {
+    "success": true,
+    "conflicts": []
+  }
+}
